@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikesh | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Srikesh<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="greeting">Hello, world!</span>
+                <h1>I'm <span class="highlight">Srikesh</span></h1>
+                <h2 class="dynamic-text">I am a <span id="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc">An aspiring Computer Science student passionate about technology and solving
+                    real-world problems.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="img-wrapper">
+                        <img src="coding-setup.png" alt="Srikesh Working">
+                    </div>
+                </div>
+                <div class="about-info">
+                    <h3>Aspiring <span class="text-gradient">Developer</span></h3>
+                    <p>I am a motivated <strong>Computer Science student</strong> from <strong>SRM Institute of Science
+                            and Technology, Chennai</strong>,
+                        with a strong interest in software development, problem-solving, and modern technologies. I have
+                        hands-on experience with programming languages such as <strong>Java, C, C++, Python, JavaScript,
+                            HTML, and CSS</strong>, along with a growing skill set in <strong>Cloud Computing</strong>,
+                        where I understand core concepts like cloud services, virtualization, and scalable application
+                        deployment.</p>
+                    <p>I have also completed an internship, which gave me real-world exposure to development workflows,
+                        teamwork, and industry best practices. Passionate about continuous learning and innovation, I
+                        aim to apply my technical knowledge to build efficient, scalable, and impactful software
+                        solutions.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Languages</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="exp-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3>Web Development Intern</h3>
+                            <span class="exp-date">1 Month</span>
+                        </div>
+                        <h4 class="company-name">TechNeat Info Solutions</h4>
+                        <p class="exp-type">On-site Internship</p>
+                        <p class="exp-desc">Gained practical exposure to web development lifecycles, working with modern
+                            web technologies and collaborating with the team to build efficient solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <img src="java.png" alt="Java"
+                            onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'">
+                    </div>
+                    <div class="skill-info">
+                        <h3>Java</h3>
+                        <p>Core Logic & OOP</p>
+                    </div>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <img src="c++.png" alt="C++"
+                            onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg'">
+                    </div>
+                    <div class="skill-info">
+                        <h3>C++</h3>
+                        <p>System Programming</p>
+                    </div>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <i class="fab fa-aws" style="font-size: 3rem; color: #FF9900;"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>AWS</h3>
+                        <p>Cloud Computing</p>
+                    </div>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <img src="python.png" alt="Python"
+                            onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'">
+                    </div>
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <p>Scripting & AI</p>
+                    </div>
+                </div>
+                <!-- Skill Card 5 -->
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <img src="html.png" alt="HTML"
+                            onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'">
+                    </div>
+                    <div class="skill-info">
+                        <h3>Web Dev</h3>
+                        <p>HTML & CSS</p>
+                    </div>
+                </div>
+                <!-- Skill Card 6 -->
+                <div class="skill-card">
+                    <div class="icon-box">
+                        <img src="bootstrap.png" alt="Bootstrap"
+                            onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'">
+                    </div>
+                    <div class="skill-info">
+                        <h3>Bootstrap</h3>
+                        <p>Responsive UI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <div class="social-links">
+                    <a href="mailto:Srikeshpraveen@gmail.com" class="social-btn gmail">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/srikesh-praveen-909a08326/" target="_blank"
+                        class="social-btn linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/srikesh-10" target="_blank" class="social-btn github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Srikesh. Built with 💻 and ☕.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
